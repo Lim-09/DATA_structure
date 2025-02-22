@@ -59,7 +59,7 @@ element peek(StackType *s)
 // 여기서 부터 코드 
 // 11번 문자열 압축
 
-void strlow(char str[])
+void strlow(char str[]) // 소문자 변환
 {
     int i = 0;
     while(str[i])
@@ -72,7 +72,7 @@ void strlow(char str[])
     }
 }
 
-void push_str(StackType *s, char str[])
+void push_str(StackType *s, char str[]) // 스택에 문자열 거꾸로 넣기
 {
    for(int i = strlen(str)-1;i >= 0; i--)
    {
