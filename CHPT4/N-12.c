@@ -107,7 +107,7 @@ while(is_empty(&s)==0)
         count++;
     }
     ce= ne;
-    if(is_empty(&s)) printf("%d%c",count,ce);// 마지막 문자에 도달하면 마지막 것도 압축
+    if(is_empty(&s)) printf("%d%c",count,ce);// 스택이 비었다면 꺼내서 저장한 나머지 문자도 출력
 }
 printf("\n");
 }
