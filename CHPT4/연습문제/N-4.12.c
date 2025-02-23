@@ -91,7 +91,6 @@ init_stack(&s);
 strlow(str);
 push_str(&s,str);
 ce= pop(&s); // 첫글자 꺼내서지정
-
 printf("압축된 문자열: ");
 
 while(is_empty(&s)==0)

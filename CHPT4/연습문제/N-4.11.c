@@ -58,7 +58,7 @@ element peek(StackType *s)
 
 int main()
 {
-    char brackets[] = "((())(()))";
+    char brackets[] = "(((((()";
     char c;
     int counter = 0, length = strlen(brackets);
     StackType s;
@@ -82,4 +82,5 @@ int main()
             break;
         }
     }
+    printf("\n");
 }
