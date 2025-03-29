@@ -54,4 +54,3 @@ element peek(StackType *s)
     }
     else return s->data[s->top];
 }
-
